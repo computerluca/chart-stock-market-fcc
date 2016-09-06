@@ -172,7 +172,9 @@ var Input = React.createClass({
         var newarray = this.state.serverValue.filter(function( obj ) {
     return obj.id_stock !== value;
 });
+console.log(newarray);
        this.setState({serverValue: newarray});
+       
 
         
       },
